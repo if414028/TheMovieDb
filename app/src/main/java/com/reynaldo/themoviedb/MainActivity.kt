@@ -16,7 +16,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
-        WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG)
 
         setContent {
             TheMovieDbTheme {
